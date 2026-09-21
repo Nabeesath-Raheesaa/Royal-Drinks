@@ -1,0 +1,97 @@
+.success-card {
+  max-width: 650px;
+  width: 100%;
+  padding: 3.5rem 2.5rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success-icon-badge {
+  color: #10B981;
+  background: rgba(16, 185, 129, 0.15);
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 30px rgba(16, 185, 129, 0.3);
+}
+
+.success-title {
+  font-size: 2.25rem;
+  color: var(--text-main);
+  margin: 1rem 0 0.5rem 0;
+}
+
+.success-subtitle {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.order-ref-box {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px dashed var(--accent-gold);
+  border-radius: var(--radius-sm);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+.ref-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+}
+
+.ref-id {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+}
+
+.status-tracker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.step.active {
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+
+.tracker-line {
+  flex-grow: 1;
+  height: 2px;
+  background: var(--border-subtle);
+}
+
+.tracker-line.active {
+  background: var(--accent-gold);
+}
+
+.action-row {
+  gap: 1rem;
+  width: 100%;
+}

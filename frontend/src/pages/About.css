@@ -1,0 +1,75 @@
+.about-hero {
+  background: linear-gradient(180deg, #1C060A 0%, var(--bg-dark) 100%);
+  padding: 5rem 0 4rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.about-hero .title {
+  font-size: 3.25rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.about-hero .description {
+  max-width: 650px;
+  margin: 0 auto;
+  color: var(--text-muted);
+  font-size: 1.15rem;
+}
+
+.about-grid {
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.about-text-block h2 {
+  font-size: 2.25rem;
+  color: var(--text-main);
+  margin: 1rem 0;
+}
+
+.about-text-block p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.about-img-frame {
+  height: 400px;
+  overflow: hidden;
+  padding: 0 !important;
+}
+
+.about-img-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pillar-card {
+  text-align: center;
+  padding: 2.25rem 1.5rem !important;
+}
+
+.pillar-icon {
+  color: var(--accent-gold);
+  margin-bottom: 1.25rem;
+  background: rgba(212, 175, 55, 0.1);
+  padding: 0.6rem;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-full);
+}
+
+.pillar-card h3 {
+  font-size: 1.15rem;
+  color: var(--text-main);
+  margin-bottom: 0.75rem;
+}
+
+.pillar-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
